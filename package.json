@@ -4,7 +4,8 @@
   "description": "Chrome extension from and for Manons family",
   "main": "index.js",
   "scripts": {
-    "tsc": "tsc -w"
+    "dev": "tsc -w",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",

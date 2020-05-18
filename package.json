@@ -1,0 +1,25 @@
+{
+  "name": "manon-family",
+  "version": "0.0.1",
+  "description": "Chrome extension from and for Manons family",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dracodeus/manon-familiy.git"
+  },
+  "author": "Sarah",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.9.2"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.112"
+  },
+  "bugs": {
+    "url": "https://github.com/Dracodeus/manon-familiy/issues"
+  },
+  "homepage": "https://github.com/Dracodeus/manon-familiy#readme"
+}

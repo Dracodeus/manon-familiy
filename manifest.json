@@ -1,0 +1,16 @@
+{
+    "name": "Getting Started Example",
+    "version": "1.0",
+    "description": "Build an Extension!",
+    "manifest_version": 2,
+    
+    "content_scripts": [
+        {
+            "run_at": "document_end",
+            "matches": [
+                "https://www.bondageprojects.com/college/*",
+                "https://www.bondageprojects.elementfx.com/*"
+            ]
+        }
+    ]
+}
